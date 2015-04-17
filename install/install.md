@@ -34,3 +34,10 @@ sudo docker rmi <imageId>
 #remove container
 sudo docker rm <containerId>
 ```
+
+### 4.创建dockerfile
+Dockerfile简单的命令:
+    FROM <image>:image 格式name:tag
+    MAINTAINER :author
+    RUN       :run command
+    CMD       :can run only once
