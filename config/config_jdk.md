@@ -3,7 +3,9 @@
 
 ### 2.过程
 >>在Dockerfile所在的目录建文件夹叫jdk
+
 >>在Dockerfile里面加入 ADD ./jdk /tmp/jdk
+
 >>安装命令rpm -ivh xx.rmp
 
 ### 3.备注
