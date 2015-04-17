@@ -7,5 +7,5 @@ http_proxy=$HTTP_PROXY
 HTTPS_PROXY=$HTTP_PROXY
 https_proxy=$HTTP_PROXY
 export HTTP_PROXY HTTPS_PROXY http_proxy https_proxy
-2.重启docker
+#### 2.重启docker
 sudo service docker reload
